@@ -5,7 +5,7 @@ import { IoMdPhotos } from "react-icons/io";
 const ImageBad = () => {
   const navigate = useNavigate();
   return (
-    <div className="min-h-screen grid place-content-center place-items-center bg-[url('src/assets/images/backgroundsquare.jpg')]">
+    <div className="min-h-screen grid place-content-center place-items-center bg-[url('assets/images/backgroundsquare.jpg')]">
       <div>
         <img src={imageBad} alt={imageBad} className="w-[260px]" />
         <button

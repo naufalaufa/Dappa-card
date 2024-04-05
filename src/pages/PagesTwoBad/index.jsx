@@ -4,7 +4,7 @@ import CutePuppy from "../../assets/GIF/cute puppy.gif";
 const PagesTwoBad = () => {
   const navigate = useNavigate();
   return (
-    <div className="min-h-screen grid place-content-center place-items-center bg-[url('src/assets/images/backgroundsquare.jpg')] object-cover ">
+    <div className="min-h-screen grid place-content-center place-items-center bg-[url('assets/images/backgroundsquare.jpg')] object-cover ">
       <div className="bg-white p-4 rounded-lg w-[320px] ">
         <div>
           <img src={CutePuppy} alt={CutePuppy} />
