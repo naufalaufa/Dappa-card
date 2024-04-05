@@ -9,6 +9,7 @@ import {
   PagesTwoGood,
   Question,
 } from "./pages";
+import AudioFile from "/hehe.mp3";
 
 const App = () => {
   const router = createBrowserRouter([
@@ -58,6 +59,7 @@ const App = () => {
   return (
     <>
       <RouterProvider router={router} />
+      <audio src={AudioFile} autoPlay={true} controls className="hidden" />
     </>
   );
 };

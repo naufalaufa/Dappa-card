@@ -1,17 +1,11 @@
 import { useNavigate } from "react-router-dom";
-import BackgroundTwoBad from "../../assets/images/background square.jpg";
 import CutePuppy from "../../assets/GIF/cute puppy.gif";
 
 const PagesTwoBad = () => {
   const navigate = useNavigate();
   return (
-    <div className="min-h-screen grid place-content-center place-items-center">
-      <img
-        className="min-h-screen  max-h-[100px] w-screen aspect-square object-cover"
-        src={BackgroundTwoBad}
-        alt={BackgroundTwoBad}
-      />
-      <div className="bg-white p-4 rounded-lg w-[320px] absolute  bottom-[30%]">
+    <div className="min-h-screen grid place-content-center place-items-center bg-[url('src/assets/images/backgroundsquare.jpg')] object-cover ">
+      <div className="bg-white p-4 rounded-lg w-[320px] ">
         <div>
           <img src={CutePuppy} alt={CutePuppy} />
         </div>
