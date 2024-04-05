@@ -5,13 +5,13 @@ import { useNavigate } from "react-router-dom";
 const Question = () => {
   const navigate = useNavigate();
   return (
-    <div className="min-h-screen grid place-content-center place-items-center  bg-[url('assets/images/bakcground.jpg')]">
-      <div className="grid place-content-center place-items-center absolute top-[30%]">
-        <div className="w-[300px] bg-pink-300 shadow-sm shadow-slate-300 absolute top-[50%] rounded-xl grid p-2">
+    <div className="min-h-screen grid place-content-center place-items-center bg-[url('assets/images/bakcground.jpg')]">
+      <div className="grid place-content-center place-items-center">
+        <div className=" bg-pink-300 shadow-sm shadow-slate-300 rounded-xl grid p-2 ">
           <span>
             <IoIosPaw size={30} className="text-black bg-white rounded-full" />
           </span>
-          <div className="bg-white w-[300px] absolute top-12 p-2 rounded-xl grid grid-cols-2 gap-4">
+          <div className="bg-white p-5 rounded-xl grid grid-cols-2 gap-4 mt-2">
             <div className="whitespace-nowrap text-sm grid place-content-center">
               <h1 className="font-bold">Hello Cepis!</h1>
               <p className="font-bold">How are you today ?</p>
